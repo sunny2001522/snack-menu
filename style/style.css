@@ -1,0 +1,370 @@
+/* 電腦 */
+
+h1 a {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logo-all-dark.svg);
+  display: block;
+  width: 216px;
+  height: 40px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+a {
+  color: #3f5d45;
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+  color: #3f5d45;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.header ul {
+  display: flex;
+  font: 16px;
+}
+.menu {
+  margin: 0 -80px 0 0;
+}
+.menu a {
+  width: 92px;
+  padding: 10px 30px;
+  display: block;
+  font: PingFang TC;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+.menu a:hover {
+  background: #eaf0ed 0% 0% no-repeat padding-box;
+}
+.cart a {
+  padding: 20px 0px 0px;
+  margin: 4px 0 0;
+}
+.cart a:hover {
+  opacity: 70%;
+}
+.cart img {
+  padding: 4px 0px 0px 47px;
+  margin: 4px 0 0 0;
+}
+.banner {
+  margin: 0 0 60px;
+}
+.banner img {
+  width: 100%;
+  height: 100%; /* 高和寬都填滿容器 */
+  object-fit: cover;
+  object-position: center;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.group {
+  width: 33%;
+}
+.group li {
+  text-align: center;
+  font-size: 24px;
+}
+.group h2 {
+  padding: 16px 0px;
+  color: white;
+  background: #3f5d45;
+  text-align: center;
+}
+.group a {
+  padding: 16px 0px;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  border: 1px solid #eaf0ed;
+}
+.group a:hover {
+  background: #eaf0ed 0% 0% no-repeat padding-box;
+}
+.group a:active {
+  background: #eaf0ed 0% 0% no-repeat padding-box;
+}
+.snack {
+  width: 66%;
+}
+.item {
+  display: flex;
+
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+.item img {
+  width: 100%;
+}
+.item li {
+  width: 49%;
+  border: 1px solid #eaf0ed;
+  text-align: center;
+  font-size: 24px;
+  position: relative;
+  margin: 0 0 20px;
+}
+.name {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 18px;
+  color: #3f5d45;
+}
+.name h5 {
+  font-weight: 600;
+}
+.add a {
+  display: block;
+  width: 100%;
+  padding: 16px 0px;
+  background: #eaf0ed 0% 0% no-repeat padding-box;
+  color: #3f5d45;
+  text-decoration: none;
+}
+.add a:hover {
+  background: white;
+}
+
+.suggest {
+  color: #eaf0ed;
+  padding: 10.08px 10px;
+  margin: 0 0 0 20px;
+  height: 107px;
+  background: #3f5d45 0% 0% no-repeat padding-box;
+  position: absolute;
+  top: 0;
+  font: normal normal 600 16px PingFang TC;
+  background-color: #3f5d45;
+  writing-mode: tb-lr;
+  writing-mode: vertical-lr;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.like {
+  width: 20px;
+  position: absolute;
+  top: 19px;
+  right: 22px;
+  height: 20px;
+}
+.like img {
+  width: 100%;
+  height: 100%;
+}
+
+.page {
+  display: flex;
+  justify-content: end;
+  margin: 30px 0 60px;
+  text-align: center;
+}
+.page img {
+  height: 17px;
+}
+.page ul {
+  display: flex;
+  font: 24px;
+}
+.menu {
+  margin: 0 -80px 0 0;
+}
+.page li {
+  align-items: center;
+}
+.page a {
+  width: 60px;
+  /*   height: 60px; */
+  align-items: center;
+  /*   padding: auto;   */
+  padding: 18px 0 18px;
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3f5d45;
+  border: solid #eaf0ed 1px;
+  text-align: center;
+  text-decoration: none;
+}
+.page a:hover {
+  background: #eaf0ed 0% 0% no-repeat padding-box;
+}
+.page a:active {
+  background: #3f5d45 0% 0% no-repeat padding-box;
+}
+.mailbg {
+  background: #3f5d45;
+  padding: 32px auto;
+}
+
+input[type="submit"] {
+  background-color: #ffe180;
+  border: none;
+  /*     padding: 12px 20px; */
+  cursor: pointer;
+  padding: 20.5px 24px;
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/arrow_forward-24px.png?raw=true)
+    no-repeat;
+}
+input[type="text"] {
+  background: #eaf0ed;
+  border: none;
+
+  cursor: pointer;
+  /*  text-align: center; */
+  font-size: 18px;
+}
+.inputmail form {
+  background: #eaf0ed;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 28px 0;
+  height: 56px;
+}
+form img {
+  padding: 0 20px;
+}
+.inputmail {
+  font-size: 24px;
+  color: #fff;
+  width: 76%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  wrap: no-wrap;
+}
+input[type="text"]:focus {
+  border: none;
+}
+.cta {
+  display: flex;
+  align-items: center;
+  width: 44%;
+}
+.cta img {
+  padding: 0 24px 0 0;
+  height: 36px;
+}
+.input form {
+  align-items: center;
+  background: #000;
+}
+
+.dia {
+  writing-mode: vertical-rl;
+  font-family: Serif;
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info li {
+  line-height: 1.5;
+}
+.social {
+  display: flex;
+}
+.info img {
+  width: 172px;
+}
+.foot {
+  background: #eaf0ed;
+  padding: 36px 0px;
+}
+.mkt {
+  /*   padding: 36px 0px; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 32px;
+  width: 76%;
+}
+.ext {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 0 auto 32px;
+  width: 76%;
+}
+.ext img {
+  height: 32px;
+  margin: 0 4px 0 0;
+}
+
+/* 手機 */
+
+@media (max-width: 380px) {
+  .header ul {
+    display: none;
+  }
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .group {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .snack {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .item li {
+    width: 100%;
+  }
+  .page {
+    justify-content: center;
+  }
+  .inputmail {
+    flex-direction: column;
+    width: 84%;
+    margin: 0px auto;
+  }
+  .cta {
+    width: 100%;
+  }
+  .inputmail form {
+    width: 100%;
+  }
+  .cta {
+    margin: 30px 0 0;
+  }
+  .dia {
+    display: none;
+  }
+  .mkt {
+    width: 84%;
+  }
+  .mkt img {
+    margin: 40px 0px;
+  }
+  .ext {
+    width: 84%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+  .social {
+    margin: 0 0 24px;
+  }
+}
